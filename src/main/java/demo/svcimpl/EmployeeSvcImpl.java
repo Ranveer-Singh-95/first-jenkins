@@ -32,11 +32,18 @@ public class EmployeeSvcImpl implements EmployeeSvcInt {
 	}
 	
 	@Override
-	@RequestMapping(value = "/list", method = RequestMethod.GET, headers = "Accept=application/json")
+	@RequestMapping(value = "/list", method = RequestMethod.POST, headers = "Accept=application/json")
 	public Map<String, Object> getEmployeeList(@RequestParam Map<String, String> params, HttpSession session,
 			HttpServletRequest request, HttpServletResponse response) {
 
 			return adapter.getEmployeeList();
+	}
+	
+	@RequestMapping(value = "/check", method = RequestMethod.GET, headers = "Accept=application/json")
+	public String getCheck(@RequestParam Map<String, String> params, HttpSession session,
+			HttpServletRequest request, HttpServletResponse response) {
+
+			return "API called successfully...";
 	}
 	
 	@Override

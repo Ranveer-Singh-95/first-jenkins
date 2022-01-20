@@ -1,0 +1,11 @@
+demo\adapter\EmployeeAdapter.class
+demo\model\Employee.class
+demo\daoimpl\EmployeeDao.class
+demo\adapter\SvcStatus.class
+demo\svcint\EmployeeSvcInt.class
+demo\daoint\EmployeeDaoInt.class
+demo\model\EmployeeDtls.class
+demo\svcimpl\EmployeeSvcImpl.class
+demo\adapter\MainAdapter.class
+demo\adapter\CORSFilter.class
+demo\daoimpl\EmployeeDao$1.class

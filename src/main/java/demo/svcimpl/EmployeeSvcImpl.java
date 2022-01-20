@@ -42,7 +42,7 @@ public class EmployeeSvcImpl implements EmployeeSvcInt {
 	@RequestMapping(value = "/check", method = RequestMethod.GET, headers = "Accept=application/json")
 	public String getCheck(@RequestParam Map<String, String> params, HttpSession session,
 			HttpServletRequest request, HttpServletResponse response) {
-
+String
 			return "API called successfully...";
 	}
 	
